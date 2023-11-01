@@ -24,6 +24,8 @@ method="post">
                     <th>:</th>
                     <td>
                         <input type="text" name="kode" id="kode">
+                        <?= form_error('kode','<small class="text-danger-pl-3">', '</small>'); ?>
+                        <input type="text" name="kode" id="kode">
                     </td>
                 </tr>
                 <tr>
